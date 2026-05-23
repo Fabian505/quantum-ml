@@ -1,0 +1,5 @@
+Modell,Datensatz,Backend,Optimizer,Iterationen,Accuracy,F1,Trainingszeit_s,Inferenzzeit_s
+VQC (RealAmplitudes),"Iris (3 Klassen, 2 Features, fair)",AerSimulator,COBYLA,100,0.6222,0.4973,50.6673,0.3482
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,COBYLA,50,0.8362,0.8727,151.3932,1.2656
+VQC (RealAmplitudes),"Iris (3 Klassen, 2 Features, noise)",AerSimulator+Noise,COBYLA,100,0.6222,0.4971,56.7252,0.4226
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, noise)",AerSimulator+Noise,COBYLA,50,0.8245,0.866,139.7184,0.9717

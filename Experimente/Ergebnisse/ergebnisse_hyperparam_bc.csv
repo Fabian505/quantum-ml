@@ -1,0 +1,13 @@
+Modell,Datensatz,Backend,Optimizer,Iterationen,Accuracy,F1,Trainingszeit_s,Inferenzzeit_s
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,COBYLA,50,0.8889,0.9163,141.0248,1.193
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,COBYLA,100,0.8655,0.8987,203.7445,1.1928
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,COBYLA,150,0.8596,0.8957,205.7143,1.2041
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,COBYLA,200,0.848,0.886,165.4734,1.2149
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,SPSA,50,0.883,0.9123,421.1541,1.1925
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,SPSA,100,0.883,0.9123,698.5822,1.2336
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,SPSA,150,0.8655,0.9004,977.191,1.194
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,SPSA,200,0.8596,0.8947,1253.9019,1.1951
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,ADAM,50,0.3509,0.3729,2299.2241,1.1999
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,ADAM,100,0.2105,0.1615,4635.5254,1.1994
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,ADAM,150,0.5029,0.555,7031.4684,1.1976
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,ADAM,200,0.193,0.1375,9228.0303,1.1898

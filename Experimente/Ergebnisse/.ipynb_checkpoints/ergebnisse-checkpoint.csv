@@ -1,0 +1,4 @@
+Quantum Kernel SVM,"Iris (3 Klassen, 2 Features, fair)",AerSimulator,0.6222,0.616,28.2243,23.517,zz_feature_map,2
+VQC (RealAmplitudes),"Iris (3 Klassen, 2 Features, fair)",AerSimulator,0.5333,0.4222,261.5463,0.3237,zz_feature_map,1
+Klassischer SVM (RBF),"Iris (3 Klassen, 2 Features, fair)",lokal,0.9556,0.9556,0.0114,0.0012
+MLP,"Iris (3 Klassen, 2 Features, fair)",lokal,0.9333,0.9327,0.3173,0.0012,"(64, 32)"

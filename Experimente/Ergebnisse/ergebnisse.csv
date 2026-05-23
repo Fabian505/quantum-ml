@@ -1,0 +1,13 @@
+Modell,Datensatz,Backend,Accuracy,F1,Trainingszeit_s,Inferenzzeit_s,Feature Map,Reps
+Quantum Kernel SVM,"Iris (3 Klassen, 2 Features, fair)",AerSimulator,0.6222,0.616,28.2243,23.517,zz_feature_map,2
+VQC (RealAmplitudes),"Iris (3 Klassen, 2 Features, fair)",AerSimulator,0.5333,0.4222,261.5463,0.3237,zz_feature_map,1
+Klassischer SVM (RBF),"Iris (3 Klassen, 2 Features, fair)",lokal,0.9556,0.9556,0.0114,0.0012,,
+MLP,"Iris (3 Klassen, 2 Features, fair)",lokal,0.9333,0.9327,0.3173,0.0012,"(64, 32)",
+Quantum Kernel SVM,"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,0.8772,0.9041,408.9585,352.8897,zz_feature_map,2
+VQC (RealAmplitudes),"Breast Cancer (2 Klassen, 2 Features, fair)",AerSimulator,0.8713,0.9027,1004.3609,1.2259,zz_feature_map,1
+Klassischer SVM (RBF),"Breast Cancer (2 Klassen, 2 Features, fair)",lokal,0.9181,0.9381,0.0076,0.0018,,
+MLP,"Breast Cancer (2 Klassen, 2 Features, fair)",lokal,0.924,0.9412,0.9143,0.001,"(64, 32)",
+Quantum Kernel SVM (Noise),"Iris (3 Klassen, 2 Features, noise)",AerSimulator+Noise,0.6222,0.616,28.2971,24.354,zz_feature_map,2
+"VQC (RealAmplitudes, Noise)","Iris (3 Klassen, 2 Features, noise)",AerSimulator+Noise,0.5778,0.4617,3366.2989,8.4769,zz_feature_map,1
+Quantum Kernel SVM (Noise),"Breast Cancer (2 Klassen, 2 Features, noise)",AerSimulator+Noise,0.8772,0.9041,399.4972,345.1652,zz_feature_map,2
+"VQC (RealAmplitudes, Noise)","Breast Cancer (2 Klassen, 2 Features, noise)",AerSimulator+Noise,0.8421,0.8831,4600.4033,9.5284,zz_feature_map,1

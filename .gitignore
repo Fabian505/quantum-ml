@@ -1,2 +1,22 @@
-"Miniconda3-latest-Linux-x86_64.sh" 
-"*.sh" 
+Miniconda3-latest-Linux-x86_64.sh 
+*.sh
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+ 
+# Virtual environments
+.venv/
+venv/
+env/
+ 
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+ 
+# IBM Quantum Credentials
+ibm_credentials.json
+ 
+# macOS
+.DS_Store

@@ -1,0 +1,2 @@
+timestamp,modell,datensatz,backend,feature_map,reps,entanglement,shots,n_train,n_test,opt_level,accuracy,f1,precision,recall,t_kernel_train,t_fit,t_infer,t_gesamt,circ_depth_physical,n_physical_qubits,gate_count_physical,n_kernel_evals
+2026-05-23 15:42:24,Quantum Kernel SVM,"Iris (3 Klassen, 2 Features, hardware)",ibm_kingston,zz_feature_map,2,linear,1024,30,45,1,0.5778,0.572,0.5808,0.5778,146.29,0.0113,441.52,587.83,32,156,40,1815
